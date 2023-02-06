@@ -63,14 +63,30 @@
         </div>
         <div class="contact-form">
           <form action="">
-            <span>სახელი, გვარი</span>
-            <input type="text" name="name" />
-            <span>ელ. ფოსტა</span>
-            <input type="email" name="email" />
-            <span>ტელეფონის ნომერი</span>
-            <input type="number" name="number" />
-            <span>შეტყობინება</span>
-            <textarea name="massage"></textarea>
+            <label for="user-name">სახელი, გვარი</label>
+            <input
+              id="user-name"
+              type="text"
+              placeholder="სახელი გვარი"
+              name="user-name"
+            />
+            <label for="user-email">ელ. ფოსტა</label>
+            <input
+              id="user-email"
+              type="email"
+              placeholder="მაილი"
+              name="user-email"
+              required
+            />
+            <label for="user-number">ტელეფონის ნომერი</label>
+            <input
+              id="user-number"
+              type="number"
+              placeholder="ნომერი"
+              required
+            />
+            <label for="massage">შეტყობინება</label>
+            <textarea id="massage"></textarea>
             <div class="sent">
               <button>გაგზავნა</button>
             </div>

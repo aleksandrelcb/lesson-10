@@ -85,7 +85,7 @@ body {
 .icon-mail {
   margin-left: 100px;
 }
-.contact-form span {
+.contact-form label {
   color: #ffffff;
   display: block;
   margin-bottom: 10px;
@@ -95,11 +95,14 @@ body {
   margin-bottom: 40px;
   width: 100%;
   padding: 5px 0px;
+  outline: none;
 }
 .contact-form textarea {
   height: 140px;
   margin-bottom: 40px;
   width: 100%;
+  resize: none;
+  outline: none;
 }
 button {
   color: #171717;
